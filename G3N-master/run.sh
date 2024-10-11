@@ -1,0 +1,16 @@
+python main.py --dataset MUTAG --quantum True
+python main.py --dataset MUTAG --quantum False
+python main.py --dataset PTC_MR --quantum True
+python main.py --dataset PTC_MR --quantum False
+python main.py --dataset PROTEINS --quantum True
+python main.py --dataset PROTEINS --quantum False
+python main.py --dataset NCI1 --quantum True
+python main.py --dataset NCI1 --quantum False
+python main.py --dataset NCI109 --quantum True
+python main.py --dataset NCI109 --quantum False
+python main.py --dataset ENZYMES --quantum True
+python main.py --dataset ENZYMES --quantum False
+python main.py --dataset IMDB-BINARY --quantum True
+python main.py --dataset IMDB-BINARY --quantum False
+python main.py --dataset IMDB-MULTI --quantum True
+python main.py --dataset IMDB-MULTI --quantum False
