@@ -47,6 +47,7 @@ def vnge(adj: np.ndarray, eig: str = "np") -> float:
     ...
 def vnge_deg(degrees: List[int], volumn) -> np.float32:
     ...
+```
 
 ```python
 # node QESE and edge QESE (Line 112 and 157 in entropy.py)
@@ -54,7 +55,7 @@ def cal_node_centrality(data_list: List[Data], eig: str, hop: int = 1) -> list:
     ...
 def cal_edge_centrality(data_list, eig: str) -> list:
     ...
-
+```
 
 # QESE: Plug-and-play structural encoding for Message Passing GNNs
 Multiplying quantum entropy structrual encoding to each message for each GNN layer.
