@@ -40,6 +40,22 @@
 |      | ✓         |           | 91.99±4.92  | 76.81±3.25 | 67.73±4.36 | 43.17±5.87 | 77.63±1.68 | 79.49±1.90 | 48.27±4.02 | 73.90±4.99  |
 |      | ✓         | ✓         | 95.20±5.04  | 79.60±3.93 | 70.03±4.70 | 48.83±6.67 | 75.33±2.21 | 74.70±2.56 | 49.33±3.20 | 72.50±2.84  |
 
+# Core codes of VNGE and QESE
+```python
+# VNGE and approximated VNGE (Line 74 and 79 in entropy.py)
+def vnge(adj: np.ndarray, eig: str = "np") -> float:
+    ...
+def vnge_deg(degrees: List[int], volumn) -> np.float32:
+    ...
+
+```python
+# node QESE and edge QESE (Line 112 and 157 in entropy.py)
+def cal_node_centrality(data_list: List[Data], eig: str, hop: int = 1) -> list:
+    ...
+def cal_edge_centrality(data_list, eig: str) -> list:
+    ...
+
+
 # QESE: Plug-and-play structural encoding for Message Passing GNNs
 Multiplying quantum entropy structrual encoding to each message for each GNN layer.
 ## Examples
