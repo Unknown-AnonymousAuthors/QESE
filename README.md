@@ -20,7 +20,23 @@
 | GAT+QESE*  | 65.74±1.3  | 77.16±4.4 |
 | SAGE       | 57.10±2.5  | 78.01±5.8 |
 | SAGE+QESE* | 69.37±2.5  | 78.34±3.2 |
-## Ablation study of node QESE and edge QESE
+
+## Ablation study of node QESE and edge QESE on synthetic grpahs
+|      |  node-QESE of whole graph |     node-QESE of subgraph     |   node-QESE of comp    | edge QESE |   EXP↓   |   CSL↓   |    graph8c↓      |   SR25↓    |
+|------|:-----:|:--------:|:----:|:----:|------|------|----------|-------|
+| SAGE | ✔️     | ✔️        | ✔️    | ✔️    | 0    | 0    | 0        | 0     |
+|      | ✔️     |          | ✔️    | ✔️    | 0    | 0    | 0        | 0     |
+|      | ✔️     | ✔️        |      | ✔️    | 0    | 0    | 0        | 0     |
+|      |       |          | ✔️    | ✔️    | 0    | 0    | 0        | 0     |
+|      |       | ✔️        |      | ✔️    | 0    | 0    | 0        | 0     |
+|      |       |          |      | ✔️    | 0    | 0    | 0        | 105   |
+|      | ✔️     |          | ✔️    |      | 0    | 0    | 0        | 0     |
+|      | ✔️     | ✔️        |      |      | 0    | 0    | 0        | 0     |
+|      |       |          | ✔️    |      | 0    | 0    | 0        | 0     |
+|      |       | ✔️        |      |      | 0    | 0    | 0        | 0     |
+|      |       |          |      |      | 600  | 45   | 349      | 105   |
+
+## Ablation study of node QESE and edge QESE on real-world grpahs
 |      | node QESE | edge QESE | MUTAG       | PROTEINS   | PTC_MR     | ENZYMES    | NCI109     | NCI1       | IMDB-MULTI | IMDB-BINARY |
 |------|-----------|-----------|-------------|------------|------------|------------|------------|------------|------------|-------------|
 | SAGE |           |           | 85.61±9.75  | 74.66±3.16 | 56.36±4.22 | 28.33±4.65 | 63.34±2.24 | 63.75±2.15 | 37.73±2.29 | 53.90±3.45  |
