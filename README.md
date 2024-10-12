@@ -22,7 +22,7 @@
 | SAGE+QESE* | 69.37±2.5  | 78.34±3.2 |
 
 ## Ablation study of node QESE and edge QESE on synthetic grpahs
-|      |  node-QESE of whole graph |     node-QESE of subgraph     |   node-QESE of comp    | edge QESE |   EXP↓   |   CSL↓   |    graph8c↓      |   SR25↓    |
+|      |  whole graph of node QESE |     subgraph of node QESE     |   complement of node QESE    | edge QESE |   EXP↓   |   CSL↓   |    graph8c↓      |   SR25↓    |
 |------|:-----:|:--------:|:----:|:----:|------|------|----------|-------|
 | SAGE | ✔️     | ✔️        | ✔️    | ✔️    | 0    | 0    | 0        | 0     |
 |      | ✔️     |          | ✔️    | ✔️    | 0    | 0    | 0        | 0     |
